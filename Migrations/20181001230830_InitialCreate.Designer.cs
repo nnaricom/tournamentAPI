@@ -9,7 +9,7 @@ using tournamentAPI.Models;
 namespace tournamentAPI.Migrations
 {
     [DbContext(typeof(TournamentContext))]
-    [Migration("20181001204016_InitialCreate")]
+    [Migration("20181001230830_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

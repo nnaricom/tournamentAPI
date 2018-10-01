@@ -34,7 +34,6 @@ namespace tournamentAPI.Controllers
 
         [HttpPost]
         public IActionResult Create(Tournament item) {
-            item.GeneratePassword();
             _context.Tournaments.Add(item);
             _context.SaveChanges();
 
