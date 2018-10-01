@@ -6,7 +6,7 @@ namespace tournamentAPI.Models
     {
         public TournamentContext(DbContextOptions<TournamentContext> options) : base(options)
         {
-
+            
         }
 
         public DbSet<Tournament> Tournaments { get; set; }

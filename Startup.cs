@@ -27,8 +27,10 @@ namespace tournamentAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Define Sqlite path here
+            var connection = "Data Source=tournaments.db";
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            services.AddDbContext<TournamentContext>(opt => opt.UseInMemoryDatabase("Tournaments"));
+            services.AddDbContext<TournamentContext>(opt => opt.UseSqlite(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
