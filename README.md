@@ -5,12 +5,14 @@
 ## Table of Contents
 
 1. [About tournamentAPI](#about-tournamentAPI)
-2. [Getting started](#getting-started)
-  * [Pre-Requisites](#pre-requisites)
-
+2. [Prerequisites](#prerequisites)
+3. [Getting started](#getting-started)
 
 ## About tournamentAPI
 HTTP REST API for storing and viewing Finland's Smash fighting game tournament information.
+
+## Prerequisites
+* .NET Core SDK 2.1
 
 ## Getting Started
 ```bash
