@@ -1,0 +1,10 @@
+language: csharp
+mono: none
+dotnet: 1.1.5
+install:
+ - dotnet restore
+ - dotnet ef migrations add travis
+ - dotnet ef database update
+script: 
+ - dotnet build
+ - dotnet run
