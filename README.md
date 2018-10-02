@@ -9,7 +9,7 @@
 3. [Getting started](#getting-started)
 
 ## About tournamentAPI
-HTTP REST API for storing and viewing Finland's Smash fighting game tournament information.
+HTTP REST API for storing and viewing Finland's fighting game tournament information.
 
 ## Prerequisites
 * .NET Core SDK 2.1
