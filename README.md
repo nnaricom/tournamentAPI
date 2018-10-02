@@ -18,5 +18,6 @@ HTTP REST API for storing and viewing Finland's Smash fighting game tournament i
 ```bash
 $ dotnet restore
 $ dotnet ef migrations add InitialCreate && dotnet ef update database
-$ dotnet run```
+$ dotnet run
+```
 The API is now running at `localhost:5000/api/tournament`
