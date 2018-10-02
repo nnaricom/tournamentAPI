@@ -7,4 +7,3 @@ install:
  - dotnet ef database update
 script: 
  - dotnet build
- - dotnet run
